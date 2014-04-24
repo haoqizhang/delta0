@@ -7,3 +7,11 @@ html, body {
 	height: 100px;
 	width:200px;
 }
+
+.color1 {
+	background: blue;
+}
+
+.color2 {
+	background: orange;
+}

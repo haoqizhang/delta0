@@ -5,5 +5,5 @@ $(document).ready(function() {
 });
 
 function toggleBox() {
-	$('.toggle-box').css('background', 'orange');
+	$('.toggle-box').toggleClass('color1 color2');
 }
