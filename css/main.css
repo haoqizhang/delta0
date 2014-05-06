@@ -1,27 +1,5 @@
 html, body {
 	background: gray;
-
-}
-
-.toggle-box {
-	display: inline-block;
-	background: blue;
-	vertical-align: middle;
-    text-align: center;
-	height: 100px;
-	width:300px;
-	position: absolute;
-	margin: -50px 0 0 -150px;
-	top: 50%;
-	left: 50%;
-}
-
-.color1 {
-	background: blue;
-}
-
-.color2 {
-	background: orange;
 }
 
 img {
@@ -31,4 +9,24 @@ img {
     left: 0;
     right: 0;
     bottom: 0;
+}
+.toggle-box {
+	display: inline-block;
+	background: blue;
+	height: 100px;
+	width:300px;
+	position: absolute;
+    margin: auto;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.color1 {
+	background: blue;
+}
+
+.color2 {
+	background: orange;
 }

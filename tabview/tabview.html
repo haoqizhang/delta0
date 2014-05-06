@@ -1,0 +1,71 @@
+<!DOCTYPE>
+
+<html>
+    <head>
+        <title>Tab-View Sample</title>
+        <link rel="stylesheet" type="text/css" href="tabview.css" />
+        <script type="text/javascript" src="tabview.js"></script>
+    </head>
+    <body>
+        <form action="tabview.html" method="get">
+            <div class="TabView" id="TabView">
+                <div class="Tabs" style="width: 350px;">
+                  <a>Page</a>
+                  <a>HTML</a>
+                  <a>CSS</a>
+                </div>
+                <div class="Pages" style="width: 800px; height: 500px;">
+                    <div class="Page" style="background: gray">
+                        <div class="Pad">
+                            <div class="toggle-box">
+                                <img src="http://delta.northwestern.edu/wordpress/wp-content/uploads/2013/11/logo.jpg" alt="Delta Lab logo">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="Page">
+                        <div class="Pad" contenteditable="true">
+                            <code>
+                                &lt;div class="toggle-box"&gt;<br>
+                                    &nbsp;&nbsp;&nbsp;&nbsp;&lt;img src="http://delta.northwestern.edu/wordpress/wp-content/uploads/2013/11/logo.jpg" alt="Delta Lab logo"&gt;<br>
+                                &lt;/div&gt;<br>
+                            </code>
+                        </div>
+                    </div>
+                    <div class="Page">
+                        <div class="Pad" contenteditable="true">
+                            <code>
+                                html, body {<br>
+                                    &nbsp;&nbsp;background: gray;<br>
+                                }<br><br>
+
+                                .toggle-box {<br>
+                                  &nbsp;&nbsp;display: inline-block;<br>
+                                  &nbsp;&nbsp;background: blue;<br>
+                                  &nbsp;&nbsp;margin: 0 auto;<br>
+                                  &nbsp;&nbsp;padding: 20px;<br>
+                                }<br><br>
+
+                                img {<br>
+                                  &nbsp;&nbsp;margin: 0 auto;<br>
+                                }<br><br>
+
+                                .color1 {<br>
+                                  &nbsp;&nbsp;background: blue;<br>
+                                }<br><br>
+
+                                .color2 {<br>
+                                  &nbsp;&nbsp;background: orange;<br>
+                                }<br>
+                            </code>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </form>
+        <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+        <script type="text/javascript" src="handlers.js"></script>
+        <script type="text/javascript">
+            tabview_initialize('TabView');
+        </script>
+    </body>
+</html>
